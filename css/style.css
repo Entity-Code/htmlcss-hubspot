@@ -47,9 +47,7 @@
    float: left;
 }
 
-/* REFACTORING */
 
-/* REFACTORING */
 
 /* annullamento bordi terzo blocco */
 
@@ -248,7 +246,7 @@
 
 /* inizio container del titolo e descrizione */
 .container-title-descr{
-   margin-top: 50px;
+   padding-top: 3.5%;
    margin-bottom: 50px;
    /* debug */
    min-height: 250px;
@@ -285,6 +283,7 @@
 /* INIZIO GRIGLIA */
 /* CONTAINER TOTALE GRIGLIA */
 .grid-total-container{
+   padding-bottom: 6%;
    margin-bottom: 75px;
    /* debug */
    height: 350px;
@@ -304,11 +303,12 @@
 
 /* row 1-2 */
 .b-r1, .b-r2{
-   width: calc(100% / 4);
    float:left;
+   background-color: #00b9a9;
+   width: calc(100% / 4);
    /* debug */
    height: 100%;
-   background-color: #00b9a9;
+
    /* debug */
 }
 /* row 1-2 */
@@ -337,7 +337,6 @@
    margin-bottom: 65px;
    /* debug */
    min-height: 400px;
-   background-color: lightgray;
    /* debug */
 
 }
@@ -374,7 +373,6 @@
    margin-bottom: 65px;
    /* debug */
    min-height: 400px;
-   background-color: lightgray;
    /* debug */
 }
 
@@ -416,6 +414,7 @@
 
 /* CONTAINER TOTALE BOXES */
 .total-first-footerbox-container{
+   padding-top: 3.5%;
    /* debug */
    min-height: 200px;
    /* debug */
@@ -464,6 +463,7 @@
 
 /* CREDITS */
 #credits{
+   width: 100%;
    /* debug */
    min-height: 120px;
    border:1px solid red;
@@ -476,7 +476,7 @@
    float: left;
    /* debug */
    min-height: 120px;
-   border:1px solid yellow;
+   border:2px solid yellow;
    /* debug */
 }
 #right-footer{
@@ -484,7 +484,7 @@
    float:right;
    /* debug */
    min-height: 120px;
-   border:1px solid pink;
+   border:2px solid pink;
    /* debug */
 }
 /* FINE PARTE FINALE FOOTER */
