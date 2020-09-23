@@ -18,8 +18,6 @@
 .total-containers{
    /* debug */
    min-height: 400px;
-   background-color: red;
-   border:1px solid black;
    /* debug */
 }
 
@@ -37,10 +35,21 @@
    background-color: #00b9a9;
    /* debug */
 }
+
+.white{
+   background-color: #ffffff;
+}
+
+.darkblue{
+   background-color: #32495b;
+}
 .float{
    float: left;
 }
 
+/* REFACTORING */
+
+/* REFACTORING */
 
 /* annullamento bordi terzo blocco */
 
@@ -137,7 +146,6 @@
 
 /* INIZIO SECONDO BLOCCO */
 .powerful-total-container{
-   margin-top: 20px;
    width: 50%;
    /* debug */
    min-height: 200px;
@@ -240,7 +248,6 @@
 
 /* inizio container del titolo e descrizione */
 .container-title-descr{
-
    margin-top: 50px;
    margin-bottom: 50px;
    /* debug */
@@ -295,23 +302,20 @@
 }
 
 
-/* row 1 */
+/* row 1-2 */
 .b-r1, .b-r2{
    width: calc(100% / 4);
    float:left;
    /* debug */
    height: 100%;
-   /* border: 1px solid white; */
    background-color: #00b9a9;
    /* debug */
 }
-/* row 1 */
+/* row 1-2 */
+/* (LE REGOLE PER I BORDI SI TROVANO ALL'INIZIO) */
 
 
 
-/* row 2 */
-
-/* row 2 */
 
 
 
@@ -320,3 +324,173 @@
 
 
 /* FINE GRIGLIA */
+
+/* FINE TERZO BLOCCO */
+
+
+
+/* INIZIO QUARTO BLOCCO */
+
+/* INIZIO PRIMO DOUBLE CONTAINER */
+.total-double-partners-descrip-container{
+   margin-top: 50px;
+   margin-bottom: 65px;
+   /* debug */
+   min-height: 400px;
+   background-color: lightgray;
+   /* debug */
+
+}
+
+/* descrip */
+.container-descrip{
+   margin-bottom: 7%;
+   margin-left: 8%;
+
+   /* debug */
+   width: 18%;
+   border: 1px solid black;
+   min-height: 150px;
+   /* debug */
+}
+/* descrip */
+
+
+/* partners */
+.container-partners{
+   margin-left: 12%;
+   width: 48%;
+   /* debug */
+   border: 1px solid black;
+   min-height: 120px;
+   /* debug */
+}
+/* partners */
+/* FINE DOUBLE CONTAINER */
+
+/* INIZIO SECONDO DOUBLE CONTAINER */
+.double-container-box-left-right{
+   margin-top: 50px;
+   margin-bottom: 65px;
+   /* debug */
+   min-height: 400px;
+   background-color: lightgray;
+   /* debug */
+}
+
+.container-box-left{
+   width: 35%;
+   /* debug */
+   border: 1px solid black;
+   min-height: 355px;
+   /* debug */
+}
+
+.container-box-right{
+   float: right;
+   width: 40%;
+   margin-left: 15%;
+   /* debug */
+   border: 1px solid black;
+   min-height: 350px;
+   /* debug */
+}
+
+
+/* FINE SECONDO DOUBLE CONTAINER */
+
+
+
+
+/* FINE QUARTO BLOCCO */
+
+
+
+
+
+
+
+/* INIZIO QUINTO BLOCCO */
+
+
+
+/* CONTAINER TOTALE BOXES */
+.total-first-footerbox-container{
+   /* debug */
+   min-height: 200px;
+   /* debug */
+}
+/* CONTAINER TOTALE BOXES */
+
+/* BOXES */
+.footer-box{
+   float: left;
+   width: calc((100% / 4) - 2%);
+   margin-right: 2%;
+   margin-bottom: 8%;
+   /* debug */
+   min-height: 300px;
+   background-color: lightblue;
+   /* debug */
+}
+#social-icons{
+   /* debug */
+   min-height: 50px;
+   border: 1px solid orange;
+   /* debug */
+}
+/* FINE BOXES */
+
+
+/* INIZIO PARTE FINALE FOOTER */
+.final-total-footerpart{
+   /* debug */
+   min-height: 150px;
+   border: 1px solid green;
+   background-color: lightblue;
+   /* debug */
+}
+
+/* LANGUAGES */
+#languages{
+   margin-bottom: 3%;
+   text-align: center;
+   border-bottom: 1px solid white;
+   /* debug */
+   min-height: 45px;
+   /* debug */
+}
+/* LANGUAGES */
+
+/* CREDITS */
+#credits{
+   /* debug */
+   min-height: 120px;
+   border:1px solid red;
+   /* debug */
+}
+/* CREDITS */
+
+#left-footer{
+   width: 20%;
+   float: left;
+   /* debug */
+   min-height: 120px;
+   border:1px solid yellow;
+   /* debug */
+}
+#right-footer{
+   width: 19%;
+   float:right;
+   /* debug */
+   min-height: 120px;
+   border:1px solid pink;
+   /* debug */
+}
+/* FINE PARTE FINALE FOOTER */
+
+
+
+
+
+/* FINE QUINTO BLOCCO */
