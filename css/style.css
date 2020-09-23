@@ -23,6 +23,17 @@
    /* debug */
 }
 
+.centratura{
+   margin: 0 auto;
+}
+
+.lightgray{
+   background-color: #f1f8fa;
+}
+
+.float{
+   float: left;
+}
 /* fine regole in comune dei contenitori */
 
 
@@ -30,7 +41,7 @@
 
 
 
-
+/* INIZIO PRIMO BLOCCO */
 
 /* NAV PRIMO BLOCCO */
 /* CONTAINER DELLA DOPPIA NAV */
@@ -51,10 +62,138 @@
 
 /* second nav container */
 .second-nav-container{
-   height:50%;
+   height: 50%;
    background-color: white;
 }
 /* second nav container */
-
-
 /* NAV PRIMO BLOCCO*/
+
+
+
+
+
+
+
+/* SECONDA PARTE PRIMO BLOCCO */
+.thereis-container{
+   /* debug */
+   min-height:400px;
+   background-color: pink;
+   /* debug */
+}
+/* SECONDA PARTE PRIMO BLOCCO */
+
+
+
+
+
+
+
+/* FINE PRIMO BLOCCO */
+
+
+/* ----------------------- */
+
+
+
+
+/* INIZIO SECONDO BLOCCO */
+.powerful-total-container{
+   margin-top: 20px;
+   width: 50%;
+   /* debug */
+   min-height: 200px;
+   background-color: lightblue;
+   /* debug */
+}
+
+
+
+
+
+
+/* POWERFUL CONTAINER IMG */
+.powerful-container-img{
+   width: 65%;
+   /* debug */
+   background-color: blue;
+   min-height: 200px;
+   /* debug */
+}
+/* POWERFUL CONTAINER IMG */
+
+/* POWERFUL CONTAINER DESCRIZIONE */
+.powerful-container-descr{
+   /* debug */
+   background-color: lightyellow;
+   min-height: 200px;
+   /* debug */
+}
+/* POWERFUL CONTAINER DESCRIZIONE */
+
+
+
+
+
+
+
+/* CONTAINER TOTALE BOX */
+.total-container-box{
+   width: 65%;
+   margin-top: 50px;
+   /* debug */
+   background-color: lightyellow;
+   min-height: 300px;
+   /* debug */
+}
+/* CONTAINER TOTALE BOX */
+
+
+/* INIZIO DELLE BOX */
+/* TOP BOX */
+.top-box{
+   margin: 50px 0;
+   /* debug */
+   background-color: orange;
+   min-height: 300px;
+   /* debug */
+}
+/* TOP BOX */
+
+
+/* LEFT, CENTRAL, RIGHT BOX */
+/* regole per le 3 box in comune */
+.b{
+   width: calc(85% / 3);
+   margin: 0 30px;
+   /* debug */
+   min-height: 600px;
+   background-color: lightgreen;
+   /* debug */
+}
+/* regole per le 3 box in comune */
+
+
+/* LEFT, CENTRAL, RIGHT BOX */
+
+
+
+
+
+/* FINE DELLE BOX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE SECONDO BLOCCO */
