@@ -24,16 +24,54 @@
 }
 
 .centratura{
+   width: 65%;
    margin: 0 auto;
 }
 
 .lightgray{
-   background-color: #f1f8fa;
+   background-color: #f4f9fd;
 }
 
+.lightblue{
+   /* debug */
+   background-color: #00b9a9;
+   /* debug */
+}
 .float{
    float: left;
 }
+
+
+/* annullamento bordi terzo blocco */
+
+.border-right-bottom{
+   border-right: 1px solid white;
+   border-bottom: 1px solid white;
+}
+.border-left-bottom{
+   border-left: 1px solid white;
+   border-bottom: 1px solid white;
+
+}
+
+.border-bottom-left{
+   border-bottom: none;
+   border-left: none;
+}
+.border-bottom-right{
+   border-bottom: none;
+   border-right: none;
+}
+
+.border-central-bottom{
+   border-bottom:1px solid white;
+}
+.border-right{
+   border-right:1px solid white;
+}
+
+
+/* fine annullamento bordi terzo blocco */
 /* fine regole in comune dei contenitori */
 
 
@@ -46,7 +84,7 @@
 /* NAV PRIMO BLOCCO */
 /* CONTAINER DELLA DOPPIA NAV */
 .total-doublenav-container{
-   background-color: #f0f8ff;
+   background-color: #f4f9fd;
    /* debug */
    height: 120px;
    /* debug */
@@ -63,7 +101,7 @@
 /* second nav container */
 .second-nav-container{
    height: 50%;
-   background-color: white;
+   background-color: #ffffff;
 }
 /* second nav container */
 /* NAV PRIMO BLOCCO*/
@@ -114,7 +152,7 @@
 
 /* POWERFUL CONTAINER IMG */
 .powerful-container-img{
-   width: 65%;
+
    /* debug */
    background-color: blue;
    min-height: 200px;
@@ -139,7 +177,7 @@
 
 /* CONTAINER TOTALE BOX */
 .total-container-box{
-   width: 65%;
+
    margin-top: 50px;
    /* debug */
    background-color: lightyellow;
@@ -152,7 +190,7 @@
 /* INIZIO DELLE BOX */
 /* TOP BOX */
 .top-box{
-   margin: 50px 0;
+   margin-top: 50px;
    /* debug */
    background-color: orange;
    min-height: 300px;
@@ -165,7 +203,7 @@
 /* regole per le 3 box in comune */
 .b{
    width: calc(85% / 3);
-   margin: 0 30px;
+   margin: 50px 30px;
    /* debug */
    min-height: 600px;
    background-color: lightgreen;
@@ -187,13 +225,98 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* FINE SECONDO BLOCCO */
+
+
+
+
+
+
+
+
+
+/* INIZIO TERZO BLOCCO */
+
+
+/* inizio container del titolo e descrizione */
+.container-title-descr{
+
+   margin-top: 50px;
+   margin-bottom: 50px;
+   /* debug */
+   min-height: 250px;
+   background-color: green;
+   /* debug */
+}
+/* fine container del titolo e descrizione */
+
+/* container titolo */
+.container-title{
+   width: 90%;
+   /* debug */
+   min-height: 125px;
+   background-color: lightgreen;
+   /* debug */
+}
+/* container titolo */
+
+
+/* container descrizione */
+.container-descr{
+   margin-top: 35px;
+   /* debug */
+   min-height:125px;
+   background-color: lightyellow;
+   /* debug */
+}
+/* container descrizione */
+
+
+
+
+
+/* INIZIO GRIGLIA */
+/* CONTAINER TOTALE GRIGLIA */
+.grid-total-container{
+   margin-bottom: 75px;
+   /* debug */
+   height: 350px;
+   /* debug */
+}
+/* CONTAINER TOTALE GRIGLIA */
+
+.container-row{
+   width: 100%;
+   float: left;
+   /* debug */
+   height: 50%;
+   background-color: gray;
+   /* debug */
+}
+
+
+/* row 1 */
+.b-r1, .b-r2{
+   width: calc(100% / 4);
+   float:left;
+   /* debug */
+   height: 100%;
+   /* border: 1px solid white; */
+   background-color: #00b9a9;
+   /* debug */
+}
+/* row 1 */
+
+
+
+/* row 2 */
+
+/* row 2 */
+
+
+
+
+
+
+
+/* FINE GRIGLIA */
