@@ -1,0 +1,60 @@
+/* regole generali */
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear:both;
+}
+/* fine regole generali */
+
+
+/* regole in comune dei contenitori */
+
+.total-containers{
+   /* debug */
+   min-height: 400px;
+   background-color: red;
+   border:1px solid black;
+   /* debug */
+}
+
+/* fine regole in comune dei contenitori */
+
+
+
+
+
+
+
+
+/* NAV PRIMO BLOCCO */
+/* CONTAINER DELLA DOPPIA NAV */
+.total-doublenav-container{
+   background-color: #f0f8ff;
+   /* debug */
+   height: 120px;
+   /* debug */
+}
+/* CONTAINER DELLA DOPPIA NAV */
+
+/* first nav container */
+.first-nav-container{
+   height: 50%;
+   border-bottom: 1px solid gray;
+}
+/* first nav container */
+
+/* second nav container */
+.second-nav-container{
+   height:50%;
+   background-color: white;
+}
+/* second nav container */
+
+
+/* NAV PRIMO BLOCCO*/
