@@ -3,6 +3,7 @@
    margin:0;
    padding:0;
    box-sizing: border-box;
+   font-family: sans-serif;
 }
 
 .clearfix::after {
@@ -83,21 +84,62 @@
 }
 
 
+h1, p{
+   color: #35485c;
+}
+
+h1{
+   margin: 0.5em 0;
+   font-size: 50px;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.61111em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 
 .login:hover{
    opacity: 0.5;
 }
 
-
+/* gethubspot */
 .gethubspotfree > a{
    text-decoration: none;
    color : white;
 }
 
-.gethubspotfree> a:hover{
+.gethubspotfree:hover{
    opacity: 0.5;
+   transition: 0.3s ease-in-out;
 }
+
+.gethubspotfree-two > a{
+   margin-top: 20px;
+   text-align: center;
+   border-radius: .1875rem;
+   transition: 0.3s ease-in-out;
+   display: inline-block;
+   text-decoration: none;
+   border: 0;
+   font-weight: 600;
+   line-height: 1.5em;
+   background-color: #ff7a59;
+   color: #fff;
+   border: 1px solid #ff7a59;
+   padding: 1.411em 2em;
+   font-size: 1.0625rem;
+   min-width: 7.277rem;
+}
+
+.gethubspotfree-two > a:hover{
+   opacity: 0.5;
+   transition: 0.3s ease-in-out;
+}
+/* gethubspot */
 
 /* SETTAGGIO ICONCINE E SUBMIT */
 
@@ -277,12 +319,51 @@
 
 
 /* SECONDA PARTE PRIMO BLOCCO */
-.thereis-container{
+/* total block container */
+.total-block-thereis-container{
    /* debug */
    min-height:400px;
-   background-color: pink;
+   background-image: url(../img/img/jumbotron.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
    /* debug */
 }
+
+
+/* total thereis container */
+.total-thereis-container{
+
+}
+/* total thereis container */
+
+
+
+
+/* thereis container */
+.thereis-container{
+   padding-top: 20px;
+   float:left;
+   margin-right: 200px;
+   margin: 0 auto;
+   width: 50%;
+   height: 600px;
+}
+/* thereis container */
+
+/* parte top */
+/* parte top */
+
+/* parte bottom */
+.thereis-container-bottom{
+   height: auto;
+}
+/* parte bottom */
+
+
+
+
+
 /* SECONDA PARTE PRIMO BLOCCO */
 
 
