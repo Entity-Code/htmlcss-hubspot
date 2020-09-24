@@ -17,7 +17,7 @@
 
 .total-containers{
    /* debug */
-   min-height: 400px;
+   /* min-height: 400px; */
    /* debug */
 }
 
@@ -46,6 +46,60 @@
 .float{
    float: left;
 }
+
+.in{
+   display: inline-block;
+}
+
+.pr{
+   position: relative;
+}
+/* SETTAGGIO ICONCINE E SUBMIT */
+.icons{
+   margin-right: 10px;
+   margin-left: 5px;
+}
+
+.ul-nav > a{
+   text-decoration: none;
+   color: black;
+}
+
+.ul-nav > .login > a {
+   text-decoration: none;
+   color: #ff7a59;
+}
+
+.ul-nav > a:hover{
+   color: #00b9a9;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.right-second-nav-container > .ul-nav > a > li {
+   display:inline-block;
+   padding: 20px 15px;
+   font-size: 18px;
+}
+
+
+
+
+.login:hover{
+   opacity: 0.5;
+}
+
+
+.gethubspotfree > a{
+   text-decoration: none;
+   color : white;
+}
+
+.gethubspotfree> a:hover{
+   opacity: 0.5;
+}
+
+/* SETTAGGIO ICONCINE E SUBMIT */
 
 
 
@@ -92,18 +146,20 @@
 /* CONTAINER DELLA DOPPIA NAV */
 .total-doublenav-container{
    background-color: #f4f9fd;
-   /* debug */
    height: 120px;
-   /* debug */
+
 }
 /* CONTAINER DELLA DOPPIA NAV */
 
 /* first nav container */
 .first-nav-container{
-   height: 50%;
+   height:50%;
+}
+.hr{
    border-bottom: 1px solid gray;
 }
 /* first nav container */
+
 
 /* second nav container */
 .second-nav-container{
@@ -112,6 +168,107 @@
 }
 /* second nav container */
 /* NAV PRIMO BLOCCO*/
+
+
+/* LEFT NAV PART */
+/* INIZIO FIRST LEFT CONTAINER */
+.container-first-right-first-nav-1{
+   padding-right: 10px;
+   border-right: 1px solid black;
+}
+/* FINE FIRST LEFT CONTAINER */
+
+/* INIZIO SECOND LEFT CONTAINER */
+.container-first-right-first-nav-2{
+   width: auto;
+   padding-left: 20px;
+}
+/* FINE SECOND LEFT CONTAINER */
+/* LEFT NAV PART */
+
+
+/* RIGHT NAV PART */
+
+.login{
+    text-align: center;
+    border-radius: .1875rem;
+    display: inline-block;
+    border: 0;
+    font-weight: 600;
+    line-height: 1.5em;
+    border: 1px solid #ff7a59;
+    padding: 5px 7px;
+    font-size: .9375rem;
+    min-width: 4.555rem;
+}
+
+
+.gethubspotfree{
+   min-width: auto;
+   text-align: center;
+   border-radius: .1875rem;
+   display: inline-block;
+   border: 0;
+   font-weight: 600;
+   line-height: 1.5em;
+   border: 1px solid #ff7a59;
+   background-color: #ff7a59;
+   padding: 5px 15px;
+   font-size: .9375rem;
+   min-width: 4.555rem;
+   margin-left: 15px;
+}
+
+/* RIGHT NAV PART */
+
+
+
+
+/* INIZIO SECONDA NAV */
+
+/* FINE SECONDA NAV */
+
+
+
+/* first nav container */
+.left-first-nav-container{
+   float: left;
+   padding-top: 20px;
+
+}
+
+.container-second-right-first-nav-1 {
+   padding-top: 13px;
+}
+
+.ul-nav{
+   display: inline-block;
+}
+
+
+.right-first-nav-container{
+   float: right;
+}
+/* first nav container */
+
+
+
+
+
+
+/* second nav container */
+.left-second-nav-container{
+   float: left;
+   padding-top: 15px;
+   /* debug */
+
+   /* debug */
+}
+
+.right-second-nav-container{
+   float: right;
+}
+/* second nav container */
 
 
 
