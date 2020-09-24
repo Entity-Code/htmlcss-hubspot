@@ -324,9 +324,9 @@ p {
    /* debug */
    min-height:400px;
    background-image: url(../img/img/jumbotron.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: right;
+   background-size: cover;
+   background-position: right bottom;
+   padding: 80px 0;
    /* debug */
 }
 
