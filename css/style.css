@@ -88,6 +88,11 @@ h1, p{
    color: #35485c;
 }
 
+h2{
+   color: #35485c;
+   margin: 0.5em 0;
+   font-size: 35px;
+}
 h1{
    margin: 0.5em 0;
    font-size: 50px;
@@ -375,7 +380,11 @@ p {
 /* FINE PRIMO BLOCCO */
 
 
-/* ----------------------- */
+/* ---------------------------------------------------- */
+
+
+
+
 
 
 
@@ -385,7 +394,6 @@ p {
    width: 50%;
    /* debug */
    min-height: 200px;
-   background-color: lightblue;
    /* debug */
 }
 
@@ -396,20 +404,26 @@ p {
 
 /* POWERFUL CONTAINER IMG */
 .powerful-container-img{
-
-   /* debug */
-   background-color: blue;
-   min-height: 200px;
-   /* debug */
+   width: 230px;
+   padding-top: 50px;
 }
+
+.powerful-total-container > h2{
+   padding-left: 40px;
+   padding-bottom: 30px;
+}
+
 /* POWERFUL CONTAINER IMG */
 
 /* POWERFUL CONTAINER DESCRIZIONE */
 .powerful-container-descr{
-   /* debug */
-   background-color: lightyellow;
-   min-height: 200px;
-   /* debug */
+
+}
+
+.powerful-container-descr > p {
+   font-size: 18px;
+   weight: 300;
+   text-align: center;
 }
 /* POWERFUL CONTAINER DESCRIZIONE */
 
@@ -421,12 +435,7 @@ p {
 
 /* CONTAINER TOTALE BOX */
 .total-container-box{
-
    margin-top: 50px;
-   /* debug */
-   background-color: lightyellow;
-   min-height: 300px;
-   /* debug */
 }
 /* CONTAINER TOTALE BOX */
 
@@ -435,12 +444,85 @@ p {
 /* TOP BOX */
 .top-box{
    margin-top: 50px;
-   /* debug */
-   background-color: orange;
-   min-height: 300px;
-   /* debug */
+   height: 400px;
+   background: #fff;
+   border-radius: 15px;
+   box-shadow: 0 0 11px #eaf0f6;
 }
+
+/* LEFT PART */
+.img-a-container{
+   padding-top: 90px;
+   margin-left: 150px;
+   max-width: 180px;
+}
+
+.h1-p > p {
+   padding-bottom: 15px;
+}
+/* LEFT PART */
+
+/* RIGHT PART */
+.right-total-container{
+   margin-left: 100px;
+   height:200px;
+   width: 55%;
+}
+.right-total-container > .h1-p > h1 {
+   margin: 0 0;
+   font-size: 27px;
+   weight: 800;
+   padding-bottom: 40px;
+}
+.right-total-container > .h1-p > p{
+   margin: 0 0;
+   font-size: 16px;
+}
+
+/* CONTAINER PFEATURE-SPUNTE */
+.pfeature-spunte{
+   width: 100%;
+
+}
+.pfeature{
+   width: 100%;
+   margin: 10px 0;
+   padding-bottom: 25px;
+}
+
+.pfeature > hr{
+   border: none;
+   float: right;
+   width: 65%;
+   height: 2px;
+   margin: 10px 0;
+   background-color: #35485c;
+}
+
+.pfeature > h4{
+   color: #35485c;
+   font-weight: bolder;
+}
+
+.spunte{
+   width: 100%;
+}
+
+.spunte > ul > li > span {
+   color: #35485c;
+   font-weight: bolder;
+   margin: 0 15px;
+}
+
+.spunte > ul > li > i{
+   color:#ff7a59;
+}
+/* CONTAINER PFEATURE-SPUNTE */
+/* RIGHT PART */
 /* TOP BOX */
+
+
+
 
 
 /* LEFT, CENTRAL, RIGHT BOX */
@@ -448,18 +530,89 @@ p {
 .b{
    width: calc(85% / 3);
    margin: 50px 30px;
-   /* debug */
-   min-height: 600px;
-   background-color: lightgreen;
-   /* debug */
+   background: #fff;
+   border-radius: 15px;
+   box-shadow: 0 0 11px #eaf0f6
 }
 /* regole per le 3 box in comune */
 
 
 /* LEFT, CENTRAL, RIGHT BOX */
 
+/* LEFT BOX */
+/* TITLE DESCR CONTAINER */
+.title-descr-c{
+   width: 100%;
+   min-height: 300px;
+}
+/* TITLE DESCR CONTAINER */
 
 
+/* TITLE CONTAINER */
+.title-c{
+   width: 100%;
+   min-height: 50%;
+}
+.title-c > h1{
+   font-size: 25px;
+   margin: 0px 86px;
+}
+
+
+.set-box-img{
+   margin: 20px 88px;
+}
+.set-box-h1{
+   margin: 0px 87px;
+   font-size: 25px;
+}
+.set-box-h2{
+   font-size: 18px;
+   weight: 50;
+   margin-left: 87px;
+}
+
+.total-pf-2 > ul > li > i {
+   color:#ff7a59;
+   margin: 0 18px;
+   margin-left: 25px;
+}
+
+.set-box-p{
+   font-size: 15px;
+   color: #35485c;
+   weight: 50;
+   text-align: center;
+   margin-top: 35px;
+   margin-bottom: 75px;
+   padding: 0 35px;
+}
+/* TITLE CONTAINER */
+
+
+/* DESCR CONTAINER */
+.descr-c{
+   width: 100%;
+   min-height: 50%;
+
+}
+/* DESCR CONTAINER */
+
+/*  total container popular features, ul e learn more */
+.total-pf-2{
+   min-height:100px;
+   width:100%;
+}
+
+.learn-more > .gethubspotfree-two > a{
+   padding: 15px 25px;
+   margin-left: 100px;
+   margin-bottom: 15px;
+}
+/*  total container popular features, ul e learn more */
+
+
+/* LEFT BOX */
 
 
 /* FINE DELLE BOX */
