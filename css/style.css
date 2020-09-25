@@ -530,11 +530,19 @@ p {
 /* LEFT, CENTRAL, RIGHT BOX */
 /* regole per le 3 box in comune */
 .b{
+<<<<<<< HEAD
    width: calc(80% / 3);
    margin: 50px 32px;
+=======
+   width: calc(85% / 3);
+   margin: 50px 30px;
+<<<<<<< HEAD
+>>>>>>> 6ce09b6f363eb57891e5ae6dbdb64e58e4d3c9f6
    background: #fff;
    border-radius: 15px;
    box-shadow: 0 0 11px #eaf0f6
+=======
+>>>>>>> 744db23df3a2d816a52e1e8629d28716364f6f32
 }
 /* regole per le 3 box in comune */
 
