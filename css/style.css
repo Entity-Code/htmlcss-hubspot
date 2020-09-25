@@ -464,7 +464,9 @@ p {
 
 /* RIGHT PART */
 .right-total-container{
-   margin-left: 100px;
+   float: right;
+   margin-right: 100px;
+   margin-top: 90px;
    height:200px;
    width: 55%;
 }
@@ -528,8 +530,8 @@ p {
 /* LEFT, CENTRAL, RIGHT BOX */
 /* regole per le 3 box in comune */
 .b{
-   width: calc(85% / 3);
-   margin: 50px 30px;
+   width: calc(80% / 3);
+   margin: 50px 32px;
    background: #fff;
    border-radius: 15px;
    box-shadow: 0 0 11px #eaf0f6
