@@ -23,7 +23,7 @@
 
 .total-containers{
    /* debug */
-   /* min-height: 400px; */
+
    /* debug */
 }
 
@@ -199,7 +199,6 @@ p {
 .total-doublenav-container{
    background-color: #f4f9fd;
    height: 120px;
-
 }
 /* CONTAINER DELLA DOPPIA NAV */
 
@@ -312,9 +311,6 @@ p {
 .left-second-nav-container{
    float: left;
    padding-top: 15px;
-   /* debug */
-
-   /* debug */
 }
 
 .right-second-nav-container{
@@ -339,13 +335,6 @@ p {
    padding: 80px 0;
    /* debug */
 }
-
-
-/* total thereis container */
-.total-thereis-container{
-
-}
-/* total thereis container */
 
 
 
@@ -699,8 +688,7 @@ p {
    float:left;
    width: calc(100% / 4);
 }
-.b-r1{
-}
+
 
 
 /* row 1-2 */
@@ -723,7 +711,7 @@ p {
 /* CONTAINER BOX H1 */
 .box-h1 > h1{
    margin: 0 0 5px;
-   font-size: 30px;
+   font-size: 45px;
    color: white;
 }
 
@@ -733,7 +721,13 @@ p {
 }
 /* CONTAINER BOX H1 */
 
+/* img */
 
+/* img */
+
+
+/* h1 */
+/* h1 */
 
 
 
@@ -833,6 +827,7 @@ p {
    width: 350px;
    height: 350px;
 }
+
 /* right */
 
 /* FINE SECONDO DOUBLE CONTAINER */
@@ -867,15 +862,56 @@ p {
    margin-bottom: 8%;
    /* debug */
    min-height: 300px;
-   background-color: lightblue;
    /* debug */
 }
-#social-icons{
-   /* debug */
-   min-height: 50px;
-   border: 1px solid orange;
-   /* debug */
+
+/* SETTAGGIO UL E LI */
+.footer-box > h4{
+   color: white;
+   padding-bottom: 20px;
 }
+.footer-box > ul {
+   list-style-type: none;
+}
+.footer-box > ul > li{
+   padding: 10px 0;
+}
+.footer-box > ul > li > a{
+   text-decoration: none;
+   color: #cbd6e2;
+   font-size: 15px;
+}
+.footer-box > ul > li > a:hover{
+   color: #0091ae;
+   text-decoration: underline;
+   cursor: pointer;
+}
+.supp-hubspot > .gethubspotfree-two > a{
+   padding: 10px;
+   font-size: 16px;
+   font-weight: normal;
+   color: #32495b;
+   background-color: #dbdfe1;
+   border: none;
+}
+/* SETTAGGIO UL E LI */
+
+/* settaggio icons */
+#social-icons-container{
+   margin-top: 20px;
+   height: 55px;
+
+}
+#social-icons-container > a{
+   text-decoration: none;
+   color: #cbd6e2;
+   padding: 0 11px;
+}
+#social-icons-container > a:hover{
+   color: #0091ae;
+   width: 250px;
+}
+/* settaggio icons */
 /* FINE BOXES */
 
 
