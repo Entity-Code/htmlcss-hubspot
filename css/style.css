@@ -33,7 +33,7 @@
 
 .lightblue{
    /* debug */
-   background-color: #00b9a9;
+   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
    /* debug */
 }
 
@@ -530,19 +530,11 @@ p {
 /* LEFT, CENTRAL, RIGHT BOX */
 /* regole per le 3 box in comune */
 .b{
-<<<<<<< HEAD
    width: calc(80% / 3);
    margin: 50px 32px;
-=======
-   width: calc(85% / 3);
-   margin: 50px 30px;
-<<<<<<< HEAD
->>>>>>> 6ce09b6f363eb57891e5ae6dbdb64e58e4d3c9f6
    background: #fff;
    border-radius: 15px;
    box-shadow: 0 0 11px #eaf0f6
-=======
->>>>>>> 744db23df3a2d816a52e1e8629d28716364f6f32
 }
 /* regole per le 3 box in comune */
 
@@ -638,7 +630,7 @@ p {
 
 
 
-
+/* ------------------------------------------------- */
 
 
 
@@ -647,22 +639,20 @@ p {
 
 /* inizio container del titolo e descrizione */
 .container-title-descr{
-   padding-top: 3.5%;
+   padding-top: 2.5%;
    margin-bottom: 50px;
-   /* debug */
-   min-height: 250px;
-   background-color: green;
-   /* debug */
 }
 /* fine container del titolo e descrizione */
 
 /* container titolo */
 .container-title{
    width: 90%;
-   /* debug */
-   min-height: 125px;
-   background-color: lightgreen;
-   /* debug */
+}
+.container-title > h1{
+   text-align: center;
+   font-size: 33px;
+   font-weight: 700;
+   color: #ffffff;
 }
 /* container titolo */
 
@@ -670,10 +660,13 @@ p {
 /* container descrizione */
 .container-descr{
    margin-top: 35px;
-   /* debug */
-   min-height:125px;
-   background-color: lightyellow;
-   /* debug */
+}
+.container-descr > p{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+   color: #ffffff;
+   padding-bottom: 50px;
 }
 /* container descrizione */
 
@@ -686,34 +679,60 @@ p {
 .grid-total-container{
    padding-bottom: 6%;
    margin-bottom: 75px;
-   /* debug */
    height: 350px;
-   /* debug */
 }
 /* CONTAINER TOTALE GRIGLIA */
 
 .container-row{
    width: 100%;
    float: left;
-   /* debug */
-   height: 50%;
-   background-color: gray;
-   /* debug */
 }
 
 
 /* row 1-2 */
 .b-r1, .b-r2{
    float:left;
-   background-color: #00b9a9;
    width: calc(100% / 4);
-   /* debug */
-   height: 100%;
-
-   /* debug */
 }
+.b-r1{
+}
+
+
 /* row 1-2 */
 /* (LE REGOLE PER I BORDI SI TROVANO ALL'INIZIO) */
+
+
+/* CONTAINER CONTENT B R1 */
+.container-content-b{
+   text-align: center;
+   padding: 0px 30px;
+}
+/* CONTAINER CONTENT B R1 */
+
+/* CONTAINER BOX-IMG */
+.box-img > img {
+   padding: 10px 0;
+}
+/* CONTAINER BOX-IMG */
+
+/* CONTAINER BOX H1 */
+.box-h1 > h1{
+   margin: 0 0 5px;
+   font-size: 30px;
+   color: white;
+}
+
+.box-h1 > p{
+   font-size: 12px;
+   color: white;
+}
+/* CONTAINER BOX H1 */
+
+/* CONTAINER BOX P */
+
+/* CONTAINER BOX P */
+
+
 
 
 
